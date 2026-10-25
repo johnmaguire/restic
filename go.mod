@@ -1,8 +1,6 @@
 module github.com/restic/restic
 
-go 1.26.0
-
-toolchain go1.26.9
+go 1.26.10
 
 // keep the old behavior for reparse points on windows until handling reparse points has been improved in restic
 // https://forum.restic.net/t/windows-junction-backup-with-go1-23-or-later/8940
